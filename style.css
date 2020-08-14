@@ -9,14 +9,14 @@
 
 .header_title {
     width: 100vw;
-    height: 15vh;
-    margin-top: 10%;
+    height: auto;
+    margin-top: 0%;
     display: block;
 }
 
 .header_title h1 {
     font-weight: 300;
-    font-size: 8rem;
+    font-size: 10vw;
     text-align: center;
     text-decoration: none;
     word-spacing: 15px;
@@ -24,9 +24,11 @@
 }
 
 .header_tagline {
-    width: 100vw;
+    width: 80vw;
+    margin-left: 10vw;
     height: 20vh;
     display: block;
+    margin-top: 10vw;
 }
 
 .header_tagline p, .header_twitter_updates p {

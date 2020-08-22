@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Title -->
+    <title>JDG | Simple Guessing Game</title>
+    <!-- Import Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Javascript guessing game for a refresher">
+    <meta name="keywords" content="Javascript, JDG, Test, Guessing Game">
+    <meta name="author" content="Jordan Da Graca">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS & JS -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <div class="body_main_container">
+        <h1>Javascript Guessing Game V1.0</h1>
+        <p>Configure Your game, press the button to generate a number, then get guessing!</p>
+        <div class="body_main_container_underline"></div>
+        <div class="body_main_container_settings">
+            <h2>Game Settings</h2>
+            <div class="body_main_container_settings_column">
+                <h3>Digits</h3>
+                <p>This setting allows You to change the length of the number to guess.</p>
+                <input type="radio" name="digits" id="digit1" value="oneDigits"> 1 digit. <br>
+                <input type="radio" name="digits" id="digit2" value="twoDigits"> 2 digits. <br>
+                <input type="radio" name="digits" id="digit3" value="threeDigits"> 3 digits.
+            </div>
+            <div class="body_main_container_settings_column">
+                <h3>Attempts</h3>
+                <p>This setting allows You to change the amount of attempts you have to guess!</p>
+                <input type="radio" name="attempts" id="attempt1" value="threeAttempts"> 3 attempts. <br>
+                <input type="radio" name="attempts" id="attempt2" value="fiveAttempts"> 5 attempts. <br>
+                <input type="radio" name="attempts" id="attempt3" value="tenAttempts"> 10 attempts.
+            </div>
+            <div class="body_main_container_settings_column">
+                <h3>Hints</h3>
+                <p>This setting allows You to toggle detailed hints about how close You are!</p>
+                <input type="radio" name="hints" id="hint1" value="detailedHints"> Detailed Hints. <br>
+                <input type="radio" name="hints" id="hint2" value="regularHints"> Regular Hints. <br>
+                <input type="radio" name="hints" id="hint3" value="noHints"> No Hints.
+            </div>
+            <button class="body_main_container_settings_accept" onclick="settingsAccept()">Accept</button>
+        </div>
+        <div class="body_main_container_confirmation" id="confirmation_container">
+            <h2 id="confirmation_header"></h2>
+            <p id="confirmation_text"></p>
+            <button class="body_main_container_confirmation_button" id="confirmation_button_left" onclick="settingsGenerateGame()">Yes, let the games begin!</button>
+            <button class="body_main_container_confirmation_button" id="confirmation_button_right" onclick="settingsReset()">No, change my settings!</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,620 @@
+@media only screen and (min-width: 0px) and (max-width: 399px) {
+    body {
+        background-image: url(../assets/background.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .body_main_container {
+        background-color: rgba(82, 82, 82, 0.93);
+        width: 80%;
+        height: 90vh;
+        margin-left: 10%;
+        margin-top: 5vh;
+        border: 3px solid #ccc;
+        box-shadow: 0 0 10px 5px;
+    }
+
+    .body_main_container h1 {
+        padding-top: 1vh;
+        font-weight: 300;
+        font-size: 1.1rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+    
+    .body_main_container p {
+        font-size: 0.8rem;
+    }
+
+    .body_main_container h2 {
+        font-weight: 300;
+        font-size: 1.2rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+        margin-top: 2vh;
+    }
+
+    .body_main_container p {
+        text-align: center;
+    }
+
+    .body_main_container_underline {
+        width: 10vw;
+        height: 0.2vh;
+        margin: 0 auto;
+        margin-top: 0.5vh;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+
+    .body_main_container_settings {
+        width: 90%;
+        margin-left: 5%;
+        height: 25vh;
+    }
+
+    .body_main_container_settings_column {
+        width: 100%;
+        margin-top: 1vh;
+        display: inline-block;
+        height: 16vh;
+    }
+
+    .body_main_container_settings_column h3 {
+        font-weight: 300;
+        font-size: 1rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .body_main_container_settings_column p {
+        font-size: 0.8rem;
+        margin: 0px 1vw;
+        margin-bottom: 1vh;
+    }
+
+    .body_main_container_settings_column input[type=radio] {
+        margin-left: 36%;
+    }
+
+    .body_main_container_settings_accept {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 15vw;
+        height: 3vh;
+        font-size: 0.8rem;
+        display: block;
+        margin: 0 auto;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .body_main_container_settings_accept:hover {
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .body_main_container_settings_accept:active {
+        border: 2px solid #fff;
+    }
+
+    .body_main_container_confirmation {
+        margin-top: 35vh;
+    }
+
+    .body_main_container_confirmation_button {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 25vw;
+        height: 5vh;
+        margin-top: 1vh;
+        font-size: 0.8rem;
+        transition: all 0.5s ease-in-out;
+        display: none;
+    }
+    
+    .body_main_container_confirmation_button:first-of-type {
+        margin-left: 12.5vw;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #fff;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    body {
+        background-image: url(../assets/background.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .body_main_container {
+        background-color: rgba(82, 82, 82, 0.93);
+        width: 80%;
+        height: 80vh;
+        margin-left: 10%;
+        margin-top: 10vh;
+        border: 3px solid #ccc;
+        box-shadow: 0 0 10px 5px;
+    }
+
+    .body_main_container h1 {
+        padding-top: 1vh;
+        font-weight: 300;
+        font-size: 2rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .body_main_container h2 {
+        font-weight: 300;
+        font-size: 1.2rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+        margin-top: 2vh;
+    }
+
+    .body_main_container p {
+        text-align: center;
+    }
+
+    .body_main_container_underline {
+        width: 10vw;
+        height: 0.2vh;
+        margin: 0 auto;
+        margin-top: 0.5vh;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+
+    .body_main_container_settings {
+        width: 90%;
+        margin-left: 5%;
+        height: 25vh;
+    }
+
+    .body_main_container_settings_column {
+        width: 100%;
+        margin-top: 1vh;
+        display: inline-block;
+        height: 13vh;
+    }
+
+    .body_main_container_settings_column h3 {
+        font-weight: 300;
+        font-size: 1.5rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .body_main_container_settings_column p {
+        font-size: 0.8rem;
+        margin: 0px 1vw;
+        margin-bottom: 1vh;
+    }
+
+    .body_main_container_settings_column input[type=radio] {
+        margin-left: 36%;
+    }
+
+    .body_main_container_settings_accept {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 15vw;
+        height: 3vh;
+        font-size: 0.8rem;
+        display: block;
+        margin: 0 auto;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .body_main_container_settings_accept:hover {
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .body_main_container_settings_accept:active {
+        border: 2px solid #fff;
+    }
+
+    .body_main_container_confirmation {
+        margin-top: 25vh;
+    }
+
+    .body_main_container_confirmation_button {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 20vw;
+        height: 3vh;
+        margin-top: 1vh;
+        font-size: 0.8rem;
+        transition: all 0.5s ease-in-out;
+        display: none;
+    }
+
+    .body_main_container_confirmation_button:first-of-type {
+        margin-left: 20vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    body {
+        background-image: url(../assets/background.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .body_main_container {
+        background-color: rgba(82, 82, 82, 0.93);
+        width: 80%;
+        height: 80vh;
+        margin-left: 10%;
+        margin-top: 10vh;
+        border: 3px solid #ccc;
+        box-shadow: 0 0 10px 5px;
+    }
+
+    .body_main_container h1 {
+        padding-top: 1vh;
+        font-weight: 300;
+        font-size: 2rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .body_main_container h2 {
+        font-weight: 300;
+        font-size: 1.2rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+        margin-top: 2vh;
+    }
+
+    .body_main_container p {
+        text-align: center;
+    }
+
+    .body_main_container_underline {
+        width: 10vw;
+        height: 0.2vh;
+        margin: 0 auto;
+        margin-top: 0.5vh;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+
+    .body_main_container_settings {
+        width: 90%;
+        margin-left: 5%;
+        height: 25vh;
+    }
+
+    .body_main_container_settings_column {
+        width: 100%;
+        margin-top: 1vh;
+        display: inline-block;
+        height: 13vh;
+    }
+
+    .body_main_container_settings_column h3 {
+        font-weight: 300;
+        font-size: 1.5rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .body_main_container_settings_column p {
+        font-size: 0.8rem;
+        margin: 0px 1vw;
+        margin-bottom: 1vh;
+    }
+
+    .body_main_container_settings_column input[type=radio] {
+        margin-left: 36%;
+    }
+
+    .body_main_container_settings_accept {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 15vw;
+        height: 3vh;
+        font-size: 0.8rem;
+        display: block;
+        margin: 0 auto;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .body_main_container_settings_accept:hover {
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .body_main_container_settings_accept:active {
+        border: 2px solid #fff;
+    }
+
+    .body_main_container_confirmation {
+        margin-top: 25vh;
+    }
+
+    .body_main_container_confirmation_button {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 20vw;
+        height: 3vh;
+        margin-top: 1vh;
+        font-size: 0.8rem;
+        transition: all 0.5s ease-in-out;
+        display: none;
+    }
+
+    .body_main_container_confirmation_button:first-of-type {
+        margin-left: 20vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-image: url(../assets/background.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .body_main_container {
+        background-color: rgba(82, 82, 82, 0.93);
+        width: 80%;
+        height: 80vh;
+        margin-left: 10%;
+        margin-top: 10vh;
+        border: 3px solid #ccc;
+        box-shadow: 0 0 10px 5px;
+    }
+
+    .body_main_container h1 {
+        padding-top: 1vh;
+        font-weight: 300;
+        font-size: 2rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .body_main_container h2 {
+        font-weight: 300;
+        font-size: 1.2rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+        margin-top: 2vh;
+    }
+
+    .body_main_container p {
+        text-align: center;
+    }
+
+    .body_main_container_underline {
+        width: 10vw;
+        height: 0.2vh;
+        margin: 0 auto;
+        margin-top: 0.5vh;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+
+    .body_main_container_settings {
+        width: 90%;
+        margin-left: 5%;
+        height: 25vh;
+    }
+
+    .body_main_container_settings_column {
+        width: 100%;
+        margin-top: 1vh;
+        display: inline-block;
+        height: 13vh;
+    }
+
+    .body_main_container_settings_column h3 {
+        font-weight: 300;
+        font-size: 1.5rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .body_main_container_settings_column p {
+        font-size: 0.8rem;
+        margin: 0px 1vw;
+        margin-bottom: 1vh;
+    }
+
+    .body_main_container_settings_column input[type=radio] {
+        margin-left: 36%;
+    }
+
+    .body_main_container_settings_accept {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 15vw;
+        height: 3vh;
+        font-size: 0.8rem;
+        display: block;
+        margin: 0 auto;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .body_main_container_settings_accept:hover {
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .body_main_container_settings_accept:active {
+        border: 2px solid #fff;
+    }
+
+    .body_main_container_confirmation {
+        margin-top: 25vh;
+    }
+
+    .body_main_container_confirmation_button {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 20vw;
+        height: 3vh;
+        margin-top: 1vh;
+        font-size: 0.8rem;
+        transition: all 0.5s ease-in-out;
+        display: none;
+    }
+
+    .body_main_container_confirmation_button:first-of-type {
+        margin-left: 20vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+    body {
+        background-image: url(../assets/background.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .body_main_container {
+        background-color: rgba(82, 82, 82, 0.93);
+        width: 80%;
+        height: 80vh;
+        margin-left: 10%;
+        margin-top: 10vh;
+        border: 3px solid #ccc;
+        box-shadow: 0 0 10px 5px;
+    }
+
+    .body_main_container h1 {
+        padding-top: 1vh;
+        font-weight: 300;
+        font-size: 2rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .body_main_container h2 {
+        font-weight: 300;
+        font-size: 1.5rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+        margin-top: 2vh;
+    }
+
+    .body_main_container p {
+        text-align: center;
+    }
+
+    .body_main_container_underline {
+        width: 10vw;
+        height: 0.2vh;
+        margin: 0 auto;
+        margin-top: 0.5vh;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+
+    .body_main_container_settings {
+        width: 90%;
+        margin-left: 5%;
+        height: 25vh;
+    }
+
+    .body_main_container_settings_column {
+        width: 100%;
+        margin-top: 1vh;
+        display: inline-block;
+        height: 13vh;
+    }
+
+    .body_main_container_settings_column h3 {
+        font-weight: 300;
+        font-size: 1.5rem;
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .body_main_container_settings_column p {
+        font-size: 0.8rem;
+        margin: 0px 1vw;
+        margin-bottom: 1vh;
+    }
+
+    .body_main_container_settings_column input[type=radio] {
+        margin-left: 42.5%;
+    }
+
+    .body_main_container_settings_accept {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 15vw;
+        height: 3vh;
+        font-size: 0.8rem;
+        display: block;
+        margin: 0 auto;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .body_main_container_settings_accept:hover {
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .body_main_container_settings_accept:active {
+        border: 2px solid #fff;
+    }
+
+    .body_main_container_confirmation {
+        margin-top: 25vh;
+    }
+
+    .body_main_container_confirmation_button {
+        background-color: #333;
+        border: 2px solid #fff;
+        width: 20vw;
+        height: 3vh;
+        margin-top: 1vh;
+        font-size: 0.8rem;
+        transition: all 0.5s ease-in-out;
+        display: none;
+    }
+
+    .body_main_container_confirmation_button:first-of-type {
+        margin-left: 20vw;
+    }
+}

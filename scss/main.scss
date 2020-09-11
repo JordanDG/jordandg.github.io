@@ -142,7 +142,7 @@
         transform: translateY(-100px);
         opacity: 0;
     }
-    
+
     100% {
         transform: translateY(0px);
         opacity: 1;
@@ -154,7 +154,7 @@
         transform: translateX(-100px);
         opacity: 0;
     }
-    
+
     100% {
         transform: translateX(0px);
         opacity: 1;
@@ -166,7 +166,7 @@
         transform: translateX(100px);
         opacity: 0;
     }
-    
+
     100% {
         transform: translateX(0px);
         opacity: 1;
@@ -245,7 +245,7 @@
             font-weight: 300;
             font-size: 2rem;
             animation: fadeInDown 1s ease-in-out;
-            
+
             &:last-of-type {
                 font-size: 1.2rem;
             }
@@ -291,7 +291,7 @@
                 }
             }
         }
-        
+
         & a {
             text-decoration: underline;
             color: #850505;
@@ -299,9 +299,64 @@
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 1080px) {
+@media only screen and (min-width: 380px) and (max-width: 1080px) {
     .header_splash_container p {
         width: 80vw;
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 379px) {
+    .header_nav_container {
+        justify-content: space-around;
+
+        & li {
+            font-size: 1.4rem;
+            margin: 0 20px;
+        }
+    }
+
+    .header_splash_container {
+        width: 100vw;
+
+        & h1 {
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        & span {
+            width: 200px;
+        }
+
+        & p {
+            font-size: 1.5rem;
+            text-align: center;
+            width: 80vw;
+
+            &:last-of-type {
+                font-size: 1rem;
+            }
+        }
+
+        &_buttons {
+            width: 80vw;
+
+            & button {
+                width: 100px;
+                height: 4.5vh;
+
+                &:first-of-type {
+                    margin-right: 10px;
+                    animation-delay: 1s;
+                    animation: fadeInLeft 1s ease-in-out;
+                }
+
+                &:last-of-type {
+                    margin-left: 10px;
+                    animation-delay: 1s;
+                    animation: fadeInRight 1s ease-in-out;
+                }
+            }
+        }
     }
 }

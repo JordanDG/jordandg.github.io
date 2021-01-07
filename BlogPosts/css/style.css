@@ -20,6 +20,7 @@ header {
 
 body {
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 header h1 {
@@ -81,6 +82,7 @@ header ul li a:hover {
     font-size: 48px;
     word-spacing: 5px;
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
 .MainSplashContainer_Follow {
@@ -101,3 +103,69 @@ header ul li a:hover {
     justify-content: flex-start;
     align-items: center;
 }
+
+.MainBlogContents img {
+    width: 900px;
+    height: 500px;
+    margin-top: 2.5vh;
+}
+
+.MainBlogContents h2 {
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.MainBlogContents h2::before {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #000;
+    display: inline-block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 37px;
+}
+
+/* Media Queries for mobile approach */
+
+@media only screen and (max-width: 1120px) {
+    header {
+        width: 100vw;
+        background-color: #fafafa;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 15px 10px -15px #111; 
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    header h1 {
+        font-weight: 500;
+        font-size: 24px;
+        word-spacing: 5px;
+        letter-spacing: 0.5px;
+    }
+
+    header ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    
+    header ul li {
+        display: inline-block;
+        font-size: 22px;
+        font-weight: 300;
+    }
+  }

@@ -66,9 +66,9 @@ header ul li a:hover {
 .MainSplashContainer {
     width: 100vw;
     height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/placeholder.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/Accessibility_FIN.PNG);
     background-attachment: scroll;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ header ul li a:hover {
 .MainBlogContents {
     width: 100vw;
     background-color: #fafafa;
-    height: 100vh;
+    height: auto;
     overflow-y: hidden;
     display: flex;
     flex-direction: column;
@@ -107,6 +107,12 @@ header ul li a:hover {
 .MainBlogContents img {
     width: 900px;
     height: 500px;
+    margin-top: 1vh;
+    border-radius: 5px;
+    border: 3px solid #000;
+}
+
+.MainBlogContents:first-of-type {
     margin-top: 2.5vh;
 }
 
@@ -119,15 +125,38 @@ header ul li a:hover {
     margin-bottom: 0.5vh;
 }
 
-.MainBlogContents h2::before {
-    content: "";
-    width: 50px;
-    height: 3px;
-    background-color: #000;
-    display: inline-block;
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 37px;
+.MainBlogContents h3 {
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.MainBlogContents p {
+    margin: 5px 25vw 40px 25vw;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.MainBlogContents p:first-of-type {
+    text-align: center;
+}
+
+.MainBlogContents span {
+    margin-bottom: 4vh;
+}
+
+.MainBlogContents ul {
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.MainBlogContents iframe {
+    margin-bottom: 40px;
+}
+
+.MainBlogContents .SquareImage {
+    width: auto;
+    margin-bottom: 40px;
 }
 
 /* Media Queries for mobile approach */
@@ -143,9 +172,26 @@ header ul li a:hover {
         align-items: center;
         box-shadow: 0px 15px 10px -15px #111; 
     }
+
+    .MainBlogContents p {
+        margin: 5px 10vw 40px 10vw;
+        font-weight: 300;
+        font-size: 18px;
+    }
   }
 
-  @media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 950px) {
+    .MainBlogContents img {
+        width: 600px;
+        height: 334px;
+        margin-top: 1vh;
+        border-radius: 5px;
+        border: 3px solid #000;
+    }
+}
+
+@media only screen and (max-width: 700px) {
     header h1 {
         font-weight: 500;
         font-size: 24px;
@@ -182,6 +228,31 @@ header ul li a:hover {
         font-size: 14px;
     }
   }
+
+  @media only screen and (max-width: 650px) {
+    .MainBlogContents img {
+        width: 90%;
+        height: 250px;
+        margin-top: 1vh;
+        border-radius: 5px;
+        border: 3px solid #000;
+    }
+
+    .MainBlogContents span {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .MainBlogContents iframe {
+        width: 90%;
+        height: 250px;
+    }
+
+    .MainBlogContents ul {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
 
 /* Main Blogpost nav CSS */
 
@@ -240,7 +311,7 @@ header ul li a:hover {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     height: 230px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/placeholder.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/Accessibility_FIN.PNG);
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
